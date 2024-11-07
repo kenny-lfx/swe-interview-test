@@ -42,7 +42,7 @@ Both the frontend and backend have their own `package.json` files. This means yo
 
 ### Step 3: Running the Backend Server
 
-The backend is a Node.js application running on Express.js.
+The backend is a Node.js application providing product list.
 
 1. In the terminal, navigate to the `backend` directory (if not already there):
 
@@ -94,8 +94,6 @@ The frontend is a React application that communicates with the backend.
 
 - **Frontend**: Visit **http://localhost:3000** in your browser to view the Product List application.
 - **Backend**: The backend is available at **http://localhost:5001**. You can check the endpoints directly by navigating to:
-  - **http://localhost:5001/api/products** - Returns the list of products.
-  - **http://localhost:5001/api/products/:id** - Deletes a product with the specified ID.
 
 
 ## Scripts Summary
