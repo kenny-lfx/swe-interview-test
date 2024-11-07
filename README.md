@@ -97,10 +97,6 @@ The frontend is a React application that communicates with the backend.
   - **http://localhost:5001/api/products** - Returns the list of products.
   - **http://localhost:5001/api/products/:id** - Deletes a product with the specified ID.
 
-### Additional Notes
-
-- Restart the Backend Server if you need to repopulate products. If all products are deleted, restarting the server will reset the product list.
-- The frontend proxy in `package.json` helps avoid CORS issues by forwarding API calls to the backend. Ensure the `proxy` is correctly set to the backend’s URL and port.
 
 ## Scripts Summary
 
