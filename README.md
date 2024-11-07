@@ -1,7 +1,4 @@
-# Simpler Card List- Product List Application
-
-This is a simple Product List application built with a **React** frontend and an **Node.js** backend. The frontend displays product cards, and the backend provides APIs for retrieving and deleting products. 
-
+# Simpler Card List
 
 ## Prerequisites
 
